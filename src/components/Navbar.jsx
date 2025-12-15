@@ -49,6 +49,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Contact{" "}
             </a>
+            <a
+              href="/Sumit-Portfolio/Sumit_Patil_4_YOE.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>
