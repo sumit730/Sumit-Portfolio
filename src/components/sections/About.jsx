@@ -4,10 +4,14 @@ export const About = () => {
   const frontendSkills = [
     "React",
     "JavaScript",
-    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "Redis",
+    "MongoDB",
+    "Mongoose",
     "TailwindCSS",
-    "HTML",
-    "CSS"
+    "HTML5",
+    "CSS3"
   ];
 
   const backendSkills = ["Java", "Spring Boot", "MySQL", "Kafka", "Docker", "Kubernetes", "Jenkins", "AWS"];
@@ -27,7 +31,7 @@ export const About = () => {
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
               A results-driven Full Stack Developer with 4+ years of experience delivering enterprise-grade applications. 
-              I have worked on microservices architecture, event-driven systems with Kafka, and cloud-native deployments, improving system performance and reliability at scale.
+              I have worked on microservices architecture, MERN stack, event-driven systems with Kafka, and cloud-native deployments, improving system performance and reliability at scale.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
