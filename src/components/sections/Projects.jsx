@@ -14,12 +14,12 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Physical Inventory Management System</h3>
+              <h3 className="text-xl font-bold mb-2">MERN - Notes Board</h3>
               <p className="text-gray-400 mb-4">
-                Infrastructure Management system allocation and persistence of resources as per the requests.
+                Built a full-stack Notes Management application using React.js and Node.js enabling users to create, edit, view, and delete notes.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Java", "Spring Boot", "MySQL", "Kafka","Docker", "Kubernetes"].map((tech, key) => (
+                {["Javascript", "React.js", "Node.js", "Express.js","MongoDB", "Redis", "Tailwind.css"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
